@@ -1,0 +1,30 @@
+[Переслано от Максим]
+обновленное дз
+1) Создать переменную типа String ### j = 'Hello! String'
+2) Создать переменную типа Integer ### x = 1
+3) Создать переменную типа Float ### z = 2.6
+4) Создать переменную типа Bytes ### u=b'bytes'
+5) Создать переменную типа List ### v = ['gg', 'hhh', 'Hello']
+6) Создать переменную типа Tuple ### k = ('Hello', 23, 23.2, '45lines')
+7) Создать переменную типа Set ### st= {'hello', 23} 
+8. Создать переменную типа Frozen set ### tess= frozenset('ghghdjgudh')
+9) Создать переменную типа Dict ### l= {'name': 'Jony', 'age': 23}
+
+10) Вывести в консоль все выше перечисленные переменные с добавлением типа данных. (добавил еще значения) 
+print(type(x), x)
+print(type(z), z)
+print(type(v), v)
+print(type(j), j)
+print(type(u), k)
+print(type(st), st)
+print(type(l), l)
+print(type(u), u)
+print(type(tess), tess)
+
+11) Создать 2 переменные String, создать переменную в которой сканкатенируете эти переменные. Вывести в консоль. ###
+R= 'Republic'
+B= 'Belarus'
+RB=R+B
+print(type(RB), RB)
+12) Вывести в одну строку переменные типа String и Integer используя “,” (Запятую) ### print('RB' ',' 'x') или print ('RB'',x'), либо использовать print(RB, x, sep=',')
+13) Вывести в одну строку переменные типа String и Integer используя “+” (Плюс) ### print('RB' '+' 'x') или print ('RB+''x'), либо использовать print(RB, x, sep='+')
